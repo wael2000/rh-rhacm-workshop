@@ -19,9 +19,6 @@ metadata:
   name: dev-clusters
   namespace: mariadb
 spec:
-  clusterConditions:
-    - type: ManagedClusterConditionAvailable
-      status: "True"
   clusterSelector:
     matchLabels:
       environment: dev
